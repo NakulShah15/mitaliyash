@@ -39,7 +39,7 @@ export const english = {
     heading: "Wedding Invitation",
     subheading: "With Heartfelt Joy",
     message:
-      "With the blessings of the Almighty and our beloved elders, the Shah Family and Gadhiya Family cordially invite you to celebrate the auspicious wedding ceremony of Mitali & Yash.\n\nYour gracious presence and blessings will make this special occasion even more memorable.",
+      "With the blessings of the Almighty and our beloved elders, the Shah Family cordially invites you to celebrate the auspicious wedding ceremony of Mitali & Yash.\n\nYour gracious presence and blessings will make this special occasion even more memorable.",
     families: "Shah Family",
   },
   couple: {
@@ -47,7 +47,6 @@ export const english = {
     subheading: "Two Hearts, One Soul",
     groomLabel: "Groom",
     brideLabel: "Bride",
-    groomFamily: "Gadhiya Family",
     brideFamily: "Shah Family",
     caption: "Together Forever, With Love & Blessings",
   },

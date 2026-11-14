@@ -12,14 +12,6 @@ export const weddingConfig = {
   groom: {
     name: "Yash",
     nameGu: "યશ",
-    family: "Gadhiya Family",
-    familyGu: "ગઢિયા પરિવાર",
-    father: "Krushnakant Gadhiya",
-    fatherGu: "કૃષ્ણકાંત ગઢિયા",
-    mother: "Dipika Gadhiya",
-    motherGu: "દિપિકા ગઢિયા",
-    sister: "Hetvi Gadhiya",
-    sisterGu: "હેત્વી ગઢિયા",
   },
   bride: {
     name: "Mitali",
