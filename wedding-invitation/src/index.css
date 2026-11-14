@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #fdf6ec;
+}
+
+body {
+  font-family: 'Noto Sans Gujarati', 'Playfair Display', sans-serif;
+  color: #3a0512;
+}
+
+html[data-lang='en'] body {
+  font-family: 'Playfair Display', 'Noto Sans Gujarati', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Elegant thin gold scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf6ec;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #eacd6b, #c9a227);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8c6f16;
+}
+
+/* Section container spacing */
+.section-container {
+  position: relative;
+  width: 100%;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  overflow: hidden;
+  scroll-margin-top: 4.25rem;
+}
+
+/* Reusable gold ornamental border frame */
+.ornate-frame {
+  border: 2px solid #c9a227;
+  outline: 1px solid rgba(201, 162, 39, 0.4);
+  outline-offset: 6px;
+}
+
+/* Gold text gradient */
+.gold-text {
+  background: linear-gradient(90deg, #8c6f16, #eacd6b, #c9a227, #eacd6b, #8c6f16);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 5s linear infinite;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #c9a227;
+  outline-offset: 2px;
+}
+
+/* Hide scrollbar for gallery tab strip while keeping it scrollable */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
